@@ -12,8 +12,7 @@
     "dat.gui": "^0.7.7",
     "oimo": "^1.0.9",
     "three": "^0.132.2",
-    "vue": "^3.0.0",
-    "vue-threejs": "^0.2.0-alpha.1"
+    "vue": "^3.2.22"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

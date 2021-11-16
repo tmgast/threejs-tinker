@@ -1,16 +1,6 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App'
+import  { WebGLRenderer } from 'three'
 
-// import * as VueThreejs from '@/../package/lib/VueThreejs.common' // testing pack
-// import * as VueThreejs from '@/../lib/VueThreejs.common' // testing build
-import * as VueThreejs from '@'
-// import VueThreejs from '@'
-Vue.use(VueThreejs)
+createApp(App).use(WebGLRenderer).mount('#app');
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
